@@ -246,6 +246,21 @@ a.highlight:hover {
   background-position:left bottom;
   transition: background 0.25s ease;
 }
+.highlight {
+  color: black;
+  cursor: pointer;
+  text-decoration: underline;
+  background: linear-gradient(to right, #FFEF8D 50%, transparent 50%);
+  background-size: 205% 100%;
+  background-position:right bottom;
+  transition: background 0.25s ease;
+}
+
+.highlight:hover {
+  /* background-color: #FAFE00; */
+  background-position:left bottom;
+  transition: background 0.25s ease;
+}
 
 a::selection {
   color: black;
@@ -304,6 +319,10 @@ article > .external-link {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+ul.pub-list li{
+
 }
 
 #static {
